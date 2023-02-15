@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+            <img src="./thermo1.gif" class="gif" alt="temperature">
+
+    <div class="card">
+        <div class="title">TEMPERATURE CONVERTER</div>
+        <div class="input">
+            <input type="number" id="inputValue" step="1" placeholder="Enter the Temperature">
+            <select name="unit" id="unit">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin (K)</option>
+            </select>
+        </div>
+        <input type="button" value="Convert" onclick="convertTemperature()">
+        <div class="output">
+            <input type="text" id="outputValue" readonly>
+        </div>    
+    </div>
+
+        <img src="./thermo1.gif" class="gif" alt="temperature">
+    
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
