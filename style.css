@@ -93,3 +93,51 @@
     font-size: 20px;
     margin-top: 20px;
   }
+
+  /*------------------------CSS for small screens-------------------------*/
+
+  @media only screen and (max-width: 600px)
+  {
+    .container{
+      background-color: white;
+    }
+
+    .gif{
+      display: none;
+    }
+
+    .title{
+      display: block;
+      margin: -232px 0 47px -17px;
+      text-align: right;
+    }
+
+    .card{
+      width: 200px;
+      flex: 1;
+      align-items: center;
+      height: 100;
+      margin: 0 30px;
+      padding: 340px 80px;
+    }
+
+    .input{
+      display: block;
+    }
+
+    #inputValue{
+      margin: 0px 0px 18px -29px;
+    }
+
+    select{
+      margin: 10px 10px 10px 22px;
+    }
+
+    input[type="button"]{
+      margin: 10px 58px;
+    }
+
+    input[type="text"]{
+      margin: 10px -23px;
+    }
+  }
