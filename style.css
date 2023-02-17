@@ -105,6 +105,15 @@
     .gif{
       display: none;
     }
+    
+    .gif2{
+      display: block;
+    }
+
+    .gif2 img{
+      height: 258px;
+      width: 196px;
+    }
 
     .title{
       display: block;
