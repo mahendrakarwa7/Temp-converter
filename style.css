@@ -135,7 +135,7 @@
     }
 
     #inputValue{
-      margin: 0px 0px 18px -29px;
+      margin: 0px 0px 18px -30px;
     }
 
     select{
@@ -147,6 +147,6 @@
     }
 
     input[type="text"]{
-      margin: 10px -23px;
+      margin: 10px -30px;
     }
   }
